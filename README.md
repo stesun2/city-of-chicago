@@ -11,7 +11,7 @@ Create a database on your computer called `chicago_salaries` using the PSQL comm
   - job_title
   - full_or_part_time
   - department
-  - annual_salary
+  - annual_salary. **Note**: If an employee is an hourly employee, calculate their annual salary by this equation: `hours_per_week * hourly_salary * 50` (50 weeks a year)
 
 ## Release 2: Clean/insert the data 
 In this release, read the CSV with Python, iterate over each row, clean the data, and insert the cleaned record into the database. If a row doesn't have all 6 of the columns we want, skip it and move onto the next record.
