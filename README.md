@@ -14,7 +14,7 @@ Create a database on your computer called `chicago_salaries` using the PSQL comm
   - annual_salary. **Note**: If an employee is an hourly employee, calculate their annual salary by this equation: `hours_per_week * hourly_salary * 50` (50 weeks a year)
 
 ## Release 2: Clean/insert the data 
-In this release, read the CSV with Python, iterate over each row, clean the data, and insert the cleaned record into the database. If a row doesn't have all 6 of the columns we want, skip it and move onto the next record.
+In this release, read the CSV with Python, iterate over each row, clean the data, and insert the cleaned record into the database. Note the calculation for the annual salary we mentioned above.
 
 Keep an eye out for two things:
 - We want first name and last name split into the database but the City of Chicago just has one name field. Is there an easy way to parse out the first and last name using what we learned so far?
