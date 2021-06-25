@@ -1,7 +1,8 @@
 -- Write your Queries here
 
-DROP TABLE IF EXISTS employees;
+DROP TABLE IF EXISTS employees CASCADE;
 CREATE TABLE employees(
+  id                    SERIAL PRIMARY KEY,
   first_name            VARCHAR(24) NOT NULL,
   last_name             VARCHAR(24) NOT NULL,
   job_title             VARCHAR(24) NOT NULL,
